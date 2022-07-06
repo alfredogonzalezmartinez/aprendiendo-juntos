@@ -1,0 +1,22 @@
+.pokemonCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  padding: 2px 8px 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #eee;
+  gap: 8px;
+}
+
+.pokemonCard img {
+  margin: 0 auto;
+}
+
+.pokemonCard h3,
+.pokemonCard p {
+  margin: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
