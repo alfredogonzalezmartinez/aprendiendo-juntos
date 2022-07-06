@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Counter from '../components/Counter.jsx';
+---
+
+<Layout title="Counter">
+  <div class="container">
+    <Counter className="counter" client:load />
+  </div>
+</Layout>
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .counter {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+</style>
