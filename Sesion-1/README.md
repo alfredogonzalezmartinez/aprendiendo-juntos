@@ -15,7 +15,7 @@ Temas a tratar:
   - Client-Side Rendering(CRS)
   - Server-Side Rendering(SSR)
   - Static Site Generation (SSG)
-  - [Next.js](https://nextjs.org/) - [What is Rendering? - How Next.js Works](https://www.netlify.com/jamstack/)
+  - [Next.js](https://nextjs.org/) - [What is Rendering? - How Next.js Works](https://nextjs.org/learn/foundations/how-nextjs-works/rendering)
   - [Vite](https://vitejs.dev/)
   - [Remix](https://remix.run/)
   - [Astro](https://astro.build/) - [Fresh](https://fresh.deno.dev/)
