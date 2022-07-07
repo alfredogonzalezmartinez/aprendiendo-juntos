@@ -1,5 +1,11 @@
 ## Sesión 1
 
+Requisitos:
+
+- [Node.js 16](https://nodejs.org/)
+- [Insomnia](https://insomnia.rest/)
+- [VS Code](https://code.visualstudio.com/) o [VSCodium](https://www.vscodium.com/)
+
 Temas a tratar:
 
 - [ ] **Herramientas de autocompletado**
@@ -12,7 +18,7 @@ Temas a tratar:
 
 - [ ] **Renderizado y uso de javascript en el cliente**
 
-  - Client-Side Rendering(CRS)
+  - Client-Side Rendering(CSR)
   - Server-Side Rendering(SSR)
   - Static Site Generation (SSG)
   - [Next.js](https://nextjs.org/) - [What is Rendering? - How Next.js Works](https://nextjs.org/learn/foundations/how-nextjs-works/rendering)
