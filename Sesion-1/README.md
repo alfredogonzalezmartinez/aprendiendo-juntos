@@ -8,7 +8,7 @@ Requisitos:
 
 Temas a tratar:
 
-- [ ] **Herramientas de autocompletado**
+- [x] **Herramientas de autocompletado**
 
   - [GitHub Copilot](https://copilot.github.com/)
   - [Tabnine](https://tabnine.com/)
@@ -20,7 +20,7 @@ Temas a tratar:
 
   - Client-Side Rendering(CSR)
   - Server-Side Rendering(SSR)
-  - Static Site Generation (SSG)
+  - Static Site Generation(SSG)
   - [Next.js](https://nextjs.org/) - [What is Rendering? - How Next.js Works](https://nextjs.org/learn/foundations/how-nextjs-works/rendering)
   - [Vite](https://vitejs.dev/)
   - [Remix](https://remix.run/)
@@ -43,6 +43,7 @@ Temas a tratar:
 
 Recursos:
 
+- [Versionado semántico](https://semver.org/)
 - [Layouts RFC | Next.js](https://nextjs.org/blog/layouts-rfc)
 - [Jamstack: Qué es y ventajas que ofrece | OpenWebinars](https://openwebinars.net/blog/jamstack-que-es-y-ventajas-que-ofrece/)
 - [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
