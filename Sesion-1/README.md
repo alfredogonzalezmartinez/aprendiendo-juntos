@@ -44,8 +44,12 @@ Temas a tratar:
 Recursos:
 
 - [Versionado semántico](https://semver.org/)
+- [Tipos de Renderizado - CSR & SSR & SSG & ISR - con Next.js](https://www.stewartgf.com/blog/tipos-de-renderizado-en-2021-con-next-js)
+
 - [Layouts RFC | Next.js](https://nextjs.org/blog/layouts-rfc)
 - [Jamstack: Qué es y ventajas que ofrece | OpenWebinars](https://openwebinars.net/blog/jamstack-que-es-y-ventajas-que-ofrece/)
 - [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 - [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- [REST API - Strapi Developer Docs](https://docs.strapi.io/developer-docs/latest/developer-resources/database-apis-reference/rest-api.html)
+- [¿Qué es un Headless CMS?](https://youtube.com/shorts/DbNYHp3qPxs)
 - [¿Qué es Supabase?](https://youtube.com/shorts/Vmf3jpWJhKA)
