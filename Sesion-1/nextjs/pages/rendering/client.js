@@ -7,8 +7,9 @@ export default function ClientSideRendering() {
   const [pokemon, setPokemon] = useState({});
 
   useEffect(() => {
-    //setTimeout(() => {}, 1000);
-    getPokemon().then(setPokemon);
+    setTimeout(() => {
+      getPokemon(367).then(setPokemon);
+    }, 2000);
   }, []);
 
   return (
