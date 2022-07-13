@@ -44,8 +44,9 @@ Temas a tratar:
 Recursos:
 
 - [Versionado semántico](https://semver.org/)
+- [¿Qué es un automatizador? - Lenguaje JS](https://lenguajejs.com/automatizadores/introduccion/que-es-un-automatizador/)
 - [Tipos de Renderizado - CSR & SSR & SSG & ISR - con Next.js](https://www.stewartgf.com/blog/tipos-de-renderizado-en-2021-con-next-js)
-
+- [Patterns.dev - Modern Web App Design Patterns](https://www.patterns.dev/)
 - [Layouts RFC | Next.js](https://nextjs.org/blog/layouts-rfc)
 - [Jamstack: Qué es y ventajas que ofrece | OpenWebinars](https://openwebinars.net/blog/jamstack-que-es-y-ventajas-que-ofrece/)
 - [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
