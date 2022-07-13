@@ -1,0 +1,31 @@
+.table {
+  border-collapse: collapse;
+}
+
+.table td,
+.table th {
+  min-width: 100px;
+  max-width: 350px;
+  padding: 0.25rem 0.5rem;
+  vertical-align: center;
+}
+
+.table thead {
+  background-color: #ebebeb;
+}
+
+.table td.center {
+  text-align: center;
+}
+
+.table td.right {
+  text-align: right;
+}
+
+.table tr:nth-child(2n) {
+  background-color: #f3f3f3;
+}
+
+.table tr:hover {
+  background-color: #e5e5e5;
+}

@@ -1,6 +1,6 @@
-import { prisma } from "../../../utils/prismaClient";
+import { handleQuery, prisma } from "../../../utils/prismaClient";
 
-const ALLOWED_METHODS = ["GET", "HEAD", "POST", "PUT", "DELETE"];
+const ALLOWED_METHODS = ["GET", "HEAD", "PUT", "DELETE"];
 
 export default async function handler(req, res) {
   const { id } = req.query;
@@ -11,43 +11,31 @@ export default async function handler(req, res) {
   }
 
   if (method === "GET" || method === "HEAD") {
-    try {
-      const user = await prisma.user.findFirst({ where: { id } });
-      res.status(200).json(user);
-    } catch (error) {
-      res.status(400).json({ error });
-    } finally {
-      await prisma.$disconnect();
-    }
+    const { data, error } = await handleQuery(
+      prisma.user.findFirst({ where: { id } })
+    );
+    if (error) return res.status(400).json({ error });
+    if (!data) return res.status(404).json({ error: "User not found" });
+    return res.status(200).json(data);
   }
 
-  if (method === "POST" || method === "PUT") {
+  if (method === "PUT") {
     const name = req.body?.name;
     const email = req.body?.email;
 
-    console.log(name, email);
-
-    try {
-      const user = await prisma.user.update({
+    const { data, error } = await handleQuery(
+      prisma.user.update({
         where: { id },
         data: { name, email },
-      });
-      res.status(200).json(user);
-    } catch (error) {
-      res.status(400).json({ error });
-    } finally {
-      await prisma.$disconnect();
-    }
+      })
+    );
+    if (error) return res.status(400).json({ error });
+    return res.status(200).json(data);
   }
 
   if (method === "DELETE") {
-    try {
-      await prisma.user.delete({ where: { id } });
-      res.status(200);
-    } catch (error) {
-      res.status(400).json({ error });
-    } finally {
-      await prisma.$disconnect();
-    }
+    const { error } = await handleQuery(prisma.user.delete({ where: { id } }));
+    if (error) return res.status(400).json({ error });
+    return res.status(200).end();
   }
 }
