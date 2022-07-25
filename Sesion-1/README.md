@@ -16,7 +16,7 @@ Temas a tratar:
 
   **Offtopic**: _IAs generadoras de imágenes_ - [DALL·E 2](https://openai.com/dall-e-2/) ([video](https://youtu.be/bP8HRYLd0lE)), [Craiyon](https://www.craiyon.com/), [Midjourney](https://www.midjourney.com/)
 
-- [ ] **Renderizado y uso de javascript en el cliente**
+- [x] **Renderizado y uso de javascript en el cliente**
 
   - Client-Side Rendering(CSR)
   - Server-Side Rendering(SSR)
