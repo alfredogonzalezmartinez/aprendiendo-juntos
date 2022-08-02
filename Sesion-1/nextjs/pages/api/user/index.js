@@ -28,9 +28,9 @@ export default async function handler(req, res) {
     const name = req.body?.name;
     const email = req.body?.email;
 
-    /* if (!name || !email) {
+    if (!name || !email) {
       return res.status(400).json({ error: "Name and email are required" });
-    } */
+    }
 
     const { data, error } = await handleQuery(
       prisma.user.create({ data: { name, email } })

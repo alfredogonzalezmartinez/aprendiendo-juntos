@@ -26,7 +26,7 @@ Temas a tratar:
   - [Remix](https://remix.run/)
   - [Astro](https://astro.build/) - [Fresh](https://fresh.deno.dev/)
 
-- [ ] **Arquitectura**
+- [x] **Arquitectura**
 
   - [Jamstack](https://jamstack.org/) - [Welcome to the Jamstack | What, Why, and How of Jamstack](https://www.netlify.com/jamstack/)
   - [Next.js](https://nextjs.org/) (Monolito)
@@ -36,7 +36,7 @@ Temas a tratar:
 
   **Tools**: [Railway](https://railway.app/) - [Prisma](https://www.prisma.io/) ([ORM](https://programarfacil.com/blog/que-es-un-orm/))
 
-- [ ] **Landing page**
+- [x] **Landing page**
   - Una página web que presenta y vende la idea (producto)
   - [Ejemplos de landing pages](https://blog.hubspot.es/website/landing-page-ejemplos)
   - Prototipado - [Figma](https://www.figma.com/) - [Curso Figma](https://www.youtube.com/playlist?list=PLvq-jIkSeTUbpfewvbKLhHctdkgadAy-K)
