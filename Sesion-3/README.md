@@ -17,9 +17,3 @@ Temas a tratar:
 
   - [DbDiagram](https://dbdiagram.io/)
   - [Full Syntax Docs | DBML](https://www.dbml.org/docs/)
-
-- [ ] **Internalización**
-  - [next-i18next](https://next.i18next.com/)
-  - [Advanced Features: Internationalized Routing | Next.js](https://nextjs.org/docs/advanced-features/i18n-routing)
-  - [Internationalization (i18n) - Strapi Developer Docs](https://docs.strapi.io/developer-docs/latest/plugins/i18n.html)
-  - [Translating content - Strapi User Guide](https://docs.strapi.io/user-docs/latest/content-manager/translating-content.html)
