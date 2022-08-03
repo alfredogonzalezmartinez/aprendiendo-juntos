@@ -2,6 +2,12 @@
 
 Temas a tratar:
 
+- [ ] **Gestión de tareas**
+
+  - [¿Qué es la metodología Kanban y cómo funciona? • Asana](https://asana.com/es/resources/what-is-kanban)
+  - [Trello](https://trello.com/)
+  - [Notion](https://notion.so/)
+
 - [ ] **Monorepo Multipaquete**
 
   - [Trabajando con Monorepos | by Jerome Olvera | Medium](https://medium.com/tauon/trabajando-con-monorepos-cf941c7d57dc)
