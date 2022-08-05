@@ -39,3 +39,7 @@ Recursos:
 - [Awesome CSS](https://github.com/awesome-css-group/awesome-css)
 - [My Custom CSS Reset - Josh W. Comeau](https://www.joshwcomeau.com/css/custom-css-reset/)
 - [Flowbite](https://flowbite.com/)
+- [Awesome ESLint](https://github.com/dustinspecker/awesome-eslint)
+- [Emmet Documentation](https://docs.emmet.io/)
+- [Frontend Mentor](https://www.frontendmentor.io/)
+- [QR tag | API](https://www.qrtag.net/api/)
