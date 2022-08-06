@@ -17,6 +17,7 @@ Temas a tratar:
 
 - [ ] **Estructura de carpetas**
 
+  - [What is a Screaming architecture? | by Marcos Sebastian | Level Up Coding](https://levelup.gitconnected.com/what-is-screaming-architecture-f7c327af9bb2)
   - [How To Structure React Projects From Beginner To Advanced - Web Dev Simplified](https://blog.webdevsimplified.com/2022-07/react-folder-structure/)
 
 - [ ] **Diagrama de base de datos**
