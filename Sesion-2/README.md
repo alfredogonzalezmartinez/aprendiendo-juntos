@@ -2,21 +2,21 @@
 
 Temas a tratar:
 
-- [ ] **Commits y Git workflow**
+- [x] **Commits y Git workflow**
 
   - [Buenas prácticas para escribir commits en Git - midudev](https://midu.dev/buenas-practicas-escribir-commits-git/)
   - [Conventional Commits](https://www.conventionalcommits.org/)
   - [Flujo de trabajo de Git | Atlassian Git Tutorial](https://www.atlassian.com/es/git/tutorials/comparing-workflows)
   - [Estrategia de Git: Ship / Show / Ask - midudev](https://midu.dev/ship-show-ask-estrategia-git/)
 
-- [ ] **Estilos - UI (User Interface)**
+- [x] **Estilos - UI (User Interface)**
 
   - CSS puro
   - CSS Frameworks: [Bootstrap](https://getbootstrap.com/) (Component-Based), [Tailwind CSS](https://tailwindcss.com/) (Utility-Based), ...
   - [Preprocesadores CSS](https://developer.mozilla.org/es/docs/Glossary/CSS_preprocessor): [Sass](https://sass-lang.com/), [PostCSS](https://postcss.org/), ...
   - UI Component Libraries: [Chakra UI](https://chakra-ui.com/), [React Bootstrap](https://react-bootstrap.github.io/), [Material UI](https://mui.com/), [Fluent UI](https://www.microsoft.com/design/fluent/), [Semantic UI React](https://react.semantic-ui.com/), ...
 
-- [ ] **Formateadores, linters y pre-commit hook**
+- [x] **Formateadores, linters y pre-commit hook**
 
   - [Commitlint](https://commitlint.js.org/)
   - [Prettier](https://prettier.io/)
@@ -26,7 +26,7 @@ Temas a tratar:
 
   **Guías de estilos**: [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html), [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html), [JavaScript Standard Style](https://standardjs.com/rules.html), [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), ...
 
-- [ ] **Hosting**
+- [x] **Hosting**
   - [Vercel](https://vercel.com/)
   - [Netlify](https://www.netlify.com/)
   - [Netlify Drop](https://app.netlify.com/drop)
