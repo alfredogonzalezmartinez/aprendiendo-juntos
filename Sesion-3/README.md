@@ -19,6 +19,7 @@ Temas a tratar:
 
   - [What is a Screaming architecture? | by Marcos Sebastian | Level Up Coding](https://levelup.gitconnected.com/what-is-screaming-architecture-f7c327af9bb2)
   - [How To Structure React Projects From Beginner To Advanced - Web Dev Simplified](https://blog.webdevsimplified.com/2022-07/react-folder-structure/)
+  - [Delightful React File/Directory Structure - Josh W. Comeau](https://www.joshwcomeau.com/react/file-structure/)
 
 - [ ] **Diagrama de base de datos**
 
