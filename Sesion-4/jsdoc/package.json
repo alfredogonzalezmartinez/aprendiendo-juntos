@@ -1,0 +1,28 @@
+{
+  "name": "jsdoc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "docs": "jsdoc -c ./jsdoc.config.json -r",
+    "serve": "serve ./docs"
+  },
+  "dependencies": {
+    "prop-types": "15.8.1",
+    "react": "^17",
+    "react-dom": "^17"
+  },
+  "devDependencies": {
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "@vitejs/plugin-react": "2.0.1",
+    "better-docs": "2.7.2",
+    "jsdoc": "3.6.11",
+    "parcel": "2.7.0",
+    "serve": "14.0.1",
+    "vite": "3.0.9"
+  }
+}

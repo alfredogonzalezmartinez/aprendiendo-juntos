@@ -1,0 +1,39 @@
+:root {
+  --color-primary-rgb: 0, 140, 186;
+  --color-secondary-rgb: 240, 236, 230;
+}
+
+.button {
+  border: 1px solid currentColor;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #fff;
+  color: #000;
+}
+
+.primary {
+  background-color: rgb(var(--color-primary-rgb));
+  color: rgb(var(--color-secondary-rgb));
+  border: 1px solid rgb(var(--color-primary-rgb));
+}
+
+.primary:hover,
+.primary:active {
+  background-color: rgb(var(--color-primary-rgb), 0.7);
+}
+
+.secondary {
+  font-weight: 400;
+  background-color: rgb(var(--color-secondary-rgb));
+  color: rgb(var(--color-primary-rgb));
+  border: 1px solid rgb(var(--color-primary-rgb));
+}
+
+.secondary:hover,
+.secondary:active {
+  background-color: rgb(var(--color-primary-rgb), 0.1);
+}

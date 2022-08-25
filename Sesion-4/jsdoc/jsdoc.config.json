@@ -1,0 +1,32 @@
+{
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "source": {
+    "include": ["./src"]
+  },
+  //"plugins": ["node_modules/better-docs/component"],
+  "opts": {
+    "template": "./node_modules/better-docs",
+    "encoding": "utf8",
+    "destination": "docs/",
+    "readme": "README.md",
+    "recurse": true,
+    "verbose": true
+  },
+  "templates": {
+    "search": true,
+    "better-docs": {
+      "name": "My React project",
+      "title": "My React project",
+      "trackingCode": "tracking-code-which-will-go-to-the-HEAD",
+      "hideGenerator": false,
+      "navLinks": [
+        {
+          "label": "Github",
+          "href": "https://github.com/alfredogonzalezmartinez/aprendiendo-juntos/tree/main/Sesion-4/jsdoc"
+        }
+      ]
+    }
+  }
+}
