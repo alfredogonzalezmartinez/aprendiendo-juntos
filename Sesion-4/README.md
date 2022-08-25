@@ -7,6 +7,7 @@ Temas a tratar:
   - [PropTypes](https://es.reactjs.org/docs/typechecking-with-proptypes.html)
   - [JSDoc](https://github.com/jsdoc/jsdoc)
   - [TypeScript: Documentation - JS Projects Utilizing TypeScript](https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html)
+  - [A Guide to using JSDoc for React.js | Better Documentation in React](https://www.inkoop.io/blog/a-guide-to-js-docs-for-react-js/)
 
 - [ ] **Testing**
 
